@@ -1,0 +1,455 @@
+#largercontainer{
+    font-size:x-large ;
+}
+#navybar{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    
+}
+#mid{
+    display: flex;
+    gap:15%;
+}
+#corner{
+    display: flex;
+    gap: 70%;
+}
+#cont{
+    background-image: url(images/flower1.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+
+    
+}
+
+#centre{
+    display: flex;
+    justify-content: centre;
+    margin-right: 25%;
+
+}
+#plant{
+    display: flex;
+}
+#middle{
+    display: flex;
+}
+#tin{
+    display: flex;
+}
+#cactus{
+    display: flex;
+}
+#house{
+    display: flex;
+}
+
+#sale{
+    display: flex;
+    justify-content: space-around;
+}
+
+#weeddy{
+    display: flex;
+}
+#bottom{
+    display: flex;
+    gap:15%;
+    
+    
+}
+#new{
+   display: flex; 
+   justify-content: space-between;
+   gap: 65%; 
+}
+
+#pot{
+    display: flex;
+   
+}
+#ima{
+    display: flex;
+}
+#flw{
+    display: flex;
+}
+#flowers2{
+    display: flex;
+}
+#button{
+    background-color: green;
+}
+#bigger{
+    display: flex;
+    justify-content: space-around;
+}
+#feature{
+    text-align: center;
+}
+#tree{
+    display: flex;
+    justify-content: space-evenly;
+}
+#shop{
+display: flex;
+justify-content: center;
+}
+
+#hold{
+background-image: url(images/leaves.jpg);
+background-repeat: no-repeat;
+text-align: center;
+margin-top: 1%;
+height: 300px;
+width: 70%;
+}
+#step{
+    display: flex;
+    gap: 20%;
+
+}
+#plenty{
+    display: flex;
+    
+}
+#auctor{
+    display: flex;
+    gap: 20%;
+
+}
+#second{
+    display: flex;
+    gap: 10%;
+}
+#flop{
+display: flex;
+gap:20%
+}
+#lig{
+    display: flex;
+    gap:10%;
+}
+#cact{
+    display:flex;
+    justify-content: space-evenly;
+    gap:2%;
+    
+}
+#houseplant{
+    display: flex;
+    gap: 20%;
+}
+#latest{
+    display: flex;
+    gap: 20%;
+}
+#info{
+    display: flex;
+    gap: 50%;
+    justify-content: space-around;
+}
+#quick{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#client{
+    text-align: center;
+}
+#text{
+    text-align: center;
+}
+#dev{
+    text-align: center;
+}
+#middlest{
+    display: flex;
+    justify-content: center;
+    gap:5%
+}
+#imagw1{
+    height: 300px;
+    width:45%;
+}
+#imagw2{
+    height: 500px;
+    width:55%;
+}
+#imagw3{
+    height: 300px;
+    width:75%;
+}
+@media  screen and (max-width:650px){
+    #navybar{
+        flex-wrap: wrap;
+         
+        
+    }
+    #mid{
+        flex-wrap: wrap;
+        gap:15%
+    }
+    #corner{
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    #cont{
+        background-image: url(images/flower1.webp);
+        height: 600px;
+        background-repeat: no-repeat;
+        width:90%;
+        flex-wrap: wrap;
+        font-size: small;
+    
+        
+    }
+    
+    #centre{
+        flex-wrap: wrap;
+        margin-right: 25%;
+    }
+    #plant{
+        flex-wrap: wrap;
+    }
+    #middle{
+        flex-wrap: wrap;
+    }
+    #tin{
+        flex-wrap: wrap;
+        font-size: small;
+    }
+    #cactus{
+        flex-wrap: wrap;
+        font-size: small;
+    }
+    #house{
+        flex-wrap: wrap;
+    }
+    
+    #sale{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    #weeddy{
+        flex-wrap: wrap;
+    }
+    #bottom{
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    #new{
+    flex-wrap: wrap;    
+    }
+    
+    #pot{
+        flex-wrap: wrap;
+        font-size: small;
+       
+    }
+    #ima{
+        display: grid;
+        grid-auto-columns: 1fr 1fr;
+    }
+    #flw{
+        flex-wrap: wrap;
+    }
+    #flowers2{
+        flex-wrap: wrap;
+    }
+    #button{
+        background-color: green;
+    }
+    #bigger{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #feature{
+        text-align: center;
+    }
+    #tree{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #shop{
+    flex-wrap: wrap;
+    }
+    
+    #hold{
+    background-image: url(images/leaves.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 1%;
+    height: 300px;
+    width: 70%;
+    }
+    #step{
+        flex-wrap: wrap;
+        gap: 20%;
+    
+    }
+    #plenty{
+        flex-wrap: wrap;
+        
+    }
+    #auctor{
+        flex-wrap: wrap;
+        gap: 20%;
+    
+    }
+    #second{
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    #flop{
+    flex-wrap:wrap ;
+    gap:20%
+    }
+    #lig{
+      flex-wrap: wrap;  
+        gap:10%;
+    }
+    #cact{
+        flex-wrap: wrap;
+        gap:2%;
+        font-size: small;
+        
+    }
+    #houseplant{
+        flex-wrap: wrap;
+        gap: 20%;
+        font-size: small;
+    }
+    #latest{
+        flex-wrap: wrap;
+        gap: 20%;
+    }
+    #info{
+        flex-wrap:wrap ;
+        gap: 50%;
+        justify-content: space-around;
+    }
+    #quick{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: small;
+    }
+    
+    #client{
+        text-align: center;
+        font-size: small;
+    }
+    #text{
+        text-align: center;
+        font-size: small;
+    }
+    #dev{
+        text-align: center;
+        font-size: small;
+    }
+    #middlest{
+        flex-wrap: wrap;
+        gap:5%
+    }
+    .image1{
+        width:45%;
+        height: 100px;
+    }
+    .image2{
+        width:45%;
+        height: 100px;
+    }
+    .image3{
+        width:45%;
+        height: 100px; 
+    }
+    .flw1{
+        width:45%;
+        height: 100px;
+    }
+    .flw2{
+        width: 45%;
+    }
+    .flw3{
+        width:45%;
+    }
+    .flw4{
+        width:45%;
+        height: 100px;
+    }
+    #bottom{
+     font-size: small;
+
+    }
+    .flw5{
+        width: 45%;
+    }
+    .flw8{
+        width:45% ;
+        height: 100px;
+    }
+    .flw9{
+        width:45% ;
+        height: 250px; 
+    }
+    .flw10{
+        width:35% ;
+        height: 50px;  
+    }
+    .flw11{
+        width:45% ;
+        height: 100px;  
+    }
+    .flw12{
+        width:45% ;
+        height: 100px; 
+    }
+    .flw13{
+        width:45% ;
+        height: 100px; 
+    }.flw14{
+        width:45% ;
+        height: 100px;
+    }
+    .flw15{
+        width:45% ;
+        height: 100px;
+    }
+    .flw16{
+        width:45% ;
+        height: 100px;
+    }
+    .flw17{
+        width:45% ;
+        height: 100px; 
+    }
+    .flw18{
+        width:45% ;
+        height: 100px; 
+    }
+    .flw19{
+        width:45% ;
+        height: 100px; 
+    }
+    .flw20{
+        width:45% ;
+        height: 100px;
+    }
+    .flw21{
+        width:45% ;
+        height: 50px;
+    }
+    .aut1{
+        height: 200px;
+        width: 45%;
+    }
+   
+}
